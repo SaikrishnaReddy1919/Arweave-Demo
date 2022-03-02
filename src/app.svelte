@@ -8,6 +8,7 @@
     })
   }
 
+  // disconnects wallet
   async function disconnect() {
     window.arweaveWallet.disconnect()
     console.log("Disconnected...")
